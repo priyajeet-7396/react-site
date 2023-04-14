@@ -1,8 +1,9 @@
-import React from 'react'
+
 
 import MainHeader from '../../components/MainHeader'
 import './home.css'
 import Programs from '../../components/Programs'
+import Values from '../../components/Values'
 
 
 
@@ -12,6 +13,7 @@ const Home = () => {
     <div>
       <MainHeader/>
       <Programs/>
+      <Values/>
     </div>
   )
 }
